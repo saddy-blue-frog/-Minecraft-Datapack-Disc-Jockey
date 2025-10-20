@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:vex",
+            "minecraft:ravager",
+            "minecraft:evoker",
+            "minecraft:vindicator",
+            "minecraft:pillager"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "discs:event_emerald"
+  }
+}

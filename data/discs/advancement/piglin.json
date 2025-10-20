@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:piglin_brute",
+            "minecraft:piglin",
+            "minecraft:hoglin"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "discs:event_gold"
+  }
+}

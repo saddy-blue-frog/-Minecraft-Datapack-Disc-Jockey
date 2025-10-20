@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "minecraft:vex",
+            "minecraft:phantom",
+            "minecraft:shulker"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "discs:event_phantom"
+  }
+}
