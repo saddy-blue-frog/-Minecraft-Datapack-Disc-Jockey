@@ -1,0 +1,3 @@
+execute if block ~ ~-1 ~ air run execute if block ~ ~-2 ~ air run execute if block ~ ~-3 ~ air run effect clear @s slow_falling
+execute if block ~ ~-1 ~ air run execute if block ~ ~-2 ~ air run execute if block ~ ~-3 ~ air run effect give @s minecraft:speed 1 3
+execute if block ~ ~-1 ~ air run execute if block ~ ~-2 ~ air run execute if block ~ ~-3 ~ air run effect give @s minecraft:resistance 1 4
