@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+        "components": {
+        "minecraft:trim": {
+          "material": "minecraft:quartz",
+          "pattern": "minecraft:snout"
+        },
+        "minecraft:item_name": {
+          "text": "Netherite Headphones - Strad",
+          "color": "#adf5ff"
+        },
+        "minecraft:jukebox_playable": "minecraft:strad"
+    }
+      }
+    },
+    "location": {
+      "biomes": [
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:beach"
+      ]
+    }
+  }
+}
+
+
+

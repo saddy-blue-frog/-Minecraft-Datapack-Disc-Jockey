@@ -1,0 +1,43 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    
+    "location": {
+      "biomes": [
+        "minecraft:windswept_savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:savanna"
+      ]
+    },
+      
+    "type_specific": {
+      "type": "minecraft:player",
+      "input": {
+        "sneak": true
+      }
+    },
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:ominous_trial_key",
+            "components": {
+                "minecraft:item_name": {
+                 "text": "Unrecorded Disc",
+                "color": "#d2eafe"
+            },
+                "minecraft:max_stack_size": 1
+        }
+      },
+      
+      "offhand": {
+        "items": "minecraft:stick",
+          "components": {
+            "minecraft:item_name": {
+             "text": "Wireless Music Recorder",
+              "color": "#c267fe"
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:music_disc_chirp",
+  "template": "minecraft:jukebox",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Chirp",
+        "color": "#d11544"
+      },
+      "minecraft:trim": {
+        "material": "minecraft:redstone",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_model": "discs:headset_chirp",
+      "minecraft:jukebox_playable": "minecraft:chirp"
+    }
+  }
+}

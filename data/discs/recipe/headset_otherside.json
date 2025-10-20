@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:music_disc_otherside",
+  "template": "minecraft:jukebox",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Otherside",
+        "color": "#1eaeeb"
+      },
+      "minecraft:trim": {
+        "material": "minecraft:emerald",
+        "pattern": "minecraft:flow"
+      },
+      "minecraft:jukebox_playable": "minecraft:otherside",
+      "minecraft:item_model": "discs:headset_otherside"
+    }
+  }
+}

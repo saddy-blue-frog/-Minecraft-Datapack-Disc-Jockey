@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:music_disc_mellohi",
+  "template": "minecraft:jukebox",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Mellohi",
+        "color": "#d970ff"
+      },
+      "minecraft:trim": {
+        "material": "minecraft:amethyst",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_model": "discs:headset_mellohi",
+      "minecraft:jukebox_playable": "minecraft:mellohi"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:copper",
+              "pattern": "minecraft:snout"
+            },
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Creator  (Music Box)",
+              "color": "#f78250"
+            },
+            "minecraft:jukebox_playable": "minecraft:creator_music_box"
+          }
+      }
+    }
+  }
+}
+
+
+

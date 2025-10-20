@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:music_disc_mall",
+  "template": "minecraft:jukebox",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Mall",
+        "color": "#7320b6"
+      },
+      "minecraft:trim": {
+        "material": "minecraft:amethyst",
+        "pattern": "minecraft:bolt"
+      },
+      "minecraft:item_model": "discs:headset_mall",
+      "minecraft:jukebox_playable": "minecraft:mall"
+    }
+  }
+}

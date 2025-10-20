@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+          "components": {
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Mellohi",
+              "color": "#d970ff"
+            },
+            "minecraft:trim": {
+              "material": "minecraft:amethyst",
+              "pattern": "minecraft:snout"
+            }
+          }
+      }
+    }
+  }
+}
+
+
+

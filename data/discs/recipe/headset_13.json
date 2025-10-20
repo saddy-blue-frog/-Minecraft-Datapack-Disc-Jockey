@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:netherite_helmet"
+  ],
+  "addition": [
+    "minecraft:music_disc_13"
+  ],
+  "template": [
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:",
+          "amount": 0.1,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:",
+          "amount": 3,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:",
+          "amount": 3,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:dyed_color": 2828845,
+      "minecraft:trim": {
+        "material": "minecraft:gold",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - 13",
+        "color": "#f9e78d"
+      },
+      "minecraft:jukebox_playable": "minecraft:13",
+      "minecraft:item_model": "discs:headset_13"
+    }
+  }
+}

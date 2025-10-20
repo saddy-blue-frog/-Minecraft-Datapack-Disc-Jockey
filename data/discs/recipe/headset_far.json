@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:music_disc_far",
+  "template": "minecraft:jukebox",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Far",
+        "color": "#b0f967"
+      },
+      "minecraft:trim": {
+        "material": "minecraft:emerald",
+        "pattern": "minecraft:bolt"
+      },
+      "minecraft:item_model": "discs:headset_far",
+      "minecraft:jukebox_playable": "minecraft:far"
+    }
+  }
+}

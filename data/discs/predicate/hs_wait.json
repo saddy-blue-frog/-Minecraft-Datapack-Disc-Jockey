@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:lapis",
+              "pattern": "minecraft:snout"
+            },
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Wait",
+              "color": "#4e78ca"
+            },
+            "minecraft:jukebox_playable": "minecraft:wait"
+          }
+      }
+    }
+  }
+}
+
+
+

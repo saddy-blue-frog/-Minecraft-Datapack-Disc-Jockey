@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:iron",
+              "pattern": "minecraft:snout"
+            },
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Ward",
+              "color": "#538d65"
+            },
+            "minecraft:jukebox_playable": "minecraft:ward"
+          }
+      }
+    }
+  }
+}
+
+
+

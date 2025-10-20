@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+          "components": {
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Far",
+              "color": "#b0f967"
+            },
+            "minecraft:trim": {
+              "material": "minecraft:emerald",
+              "pattern": "minecraft:bolt"
+            },
+            "minecraft:jukebox_playable": "minecraft:far"
+          }
+      }
+    }
+  }
+}
+
+
+

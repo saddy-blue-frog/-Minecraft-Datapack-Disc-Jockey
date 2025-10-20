@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:netherite_helmet"
+  ],
+  "addition": [
+    "minecraft:music_disc_5"
+  ],
+  "template": [
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:diamond",
+        "pattern": "minecraft:silence"
+      },
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - 5",
+        "color": "#12a6ba"
+      },
+      "minecraft:item_model": "discs:headset_5",
+      "minecraft:jukebox_playable": "minecraft:5"
+    }
+  }
+}

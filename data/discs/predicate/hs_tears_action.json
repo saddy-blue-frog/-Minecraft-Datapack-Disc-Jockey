@@ -1,0 +1,54 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:iron_helmet",
+          "components": {
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Tear",
+              "color": "#dcdbdb"
+            },
+            "minecraft:trim": {
+              "material": "minecraft:diamond",
+              "pattern": "minecraft:snout"
+            },
+            "minecraft:jukebox_playable": "minecraft:tears",
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:",
+                "amount": 3,
+                "operation": "add_value"
+              },
+              {
+                "type": "minecraft:armor_toughness",
+                "id": "minecraft:",
+                "amount": 3,
+                "operation": "add_value"
+              },
+              {
+                "type": "minecraft:knockback_resistance",
+                "id": "minecraft:",
+                "amount": 0.1,
+                "operation": "add_value"
+              }
+            ],
+            "minecraft:max_damage": 407
+          }
+      }
+    },
+    "stepping_on": {
+      "block": {
+        "blocks": [
+          "minecraft:soul_soil",
+          "minecraft:soul_sand"
+        ]
+      }
+    }
+  }
+}
+
+
+

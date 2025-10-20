@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:netherite_helmet"
+  ],
+  "addition": [
+    "minecraft:music_disc_cat"
+  ],
+  "template": [
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:emerald",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Cats",
+        "color": "#68e260"
+      },
+      "minecraft:item_model": "discs:headset_cat",
+      "minecraft:jukebox_playable": "minecraft:cat"
+    }
+  }
+}

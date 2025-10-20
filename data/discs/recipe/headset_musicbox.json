@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:netherite_helmet"
+  ],
+  "addition": [
+    "minecraft:music_disc_creator_music_box"
+  ],
+  "template": [
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:copper",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Creator  (Music Box)",
+        "color": "#f78250"
+      },
+      "minecraft:item_model": "discs:headset_musicbox",
+      "minecraft:jukebox_playable": "minecraft:creator_music_box"
+    }
+  }
+}

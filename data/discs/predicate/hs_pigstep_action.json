@@ -1,0 +1,55 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:golden_helmet",
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:netherite",
+              "pattern": "minecraft:silence"
+            },
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Pigstep",
+              "color": "#940505"
+            },
+            "minecraft:jukebox_playable": "minecraft:pigstep",
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:knockback_resistance",
+                "id": "minecraft:",
+                "amount": 0.1,
+                "operation": "add_value"
+              },
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:",
+                "amount": 3,
+                "operation": "add_value"
+              },
+              {
+                "type": "minecraft:armor_toughness",
+                "id": "minecraft:",
+                "amount": 3,
+                "operation": "add_value"
+              }
+            ],
+            "minecraft:max_damage": 407
+          }
+      }
+    },
+    "targeted_entity": {
+      "type": [
+        "minecraft:hoglin",
+        "minecraft:zoglin",
+        "minecraft:zombified_piglin",
+        "minecraft:piglin_brute",
+        "minecraft:piglin"
+      ]
+    }
+  }
+}
+
+
+

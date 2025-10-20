@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:music_disc_relic",
+  "template": "minecraft:jukebox",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Relic",
+        "color": "#906451"
+      },
+      "minecraft:trim": {
+        "material": "minecraft:copper",
+        "pattern": "minecraft:flow"
+      },
+      "minecraft:jukebox_playable": "minecraft:relic",
+      "minecraft:item_model": "discs:headset_relic"
+    }
+  }
+}
+

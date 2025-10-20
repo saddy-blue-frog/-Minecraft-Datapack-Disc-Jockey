@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:music_disc_lava_chicken",
+  "template": "minecraft:jukebox",
+  "result": {
+    "id": "minecraft:iron_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Lava Chicken",
+        "color": "#ff4538"
+      },
+      "minecraft:trim": {
+        "material": "minecraft:redstone",
+        "pattern": "minecraft:flow"
+      },
+      "minecraft:jukebox_playable": "minecraft:lava_chicken",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:",
+          "amount": 3,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:",
+          "amount": 3,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:",
+          "amount": 0.1,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:max_damage": 407,
+      "minecraft:item_model": "discs:headset_lava"
+    }
+  }
+}

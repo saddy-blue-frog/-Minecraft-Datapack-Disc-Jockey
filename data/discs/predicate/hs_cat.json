@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:emerald",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Cats",
+        "color": "#68e260"
+      },
+      "minecraft:jukebox_playable": "minecraft:cat"
+    }
+      }
+    }
+  }
+}
+
+
+

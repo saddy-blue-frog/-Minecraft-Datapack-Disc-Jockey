@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+          "components": {
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Mall",
+              "color": "#7320b6"
+            },
+            "minecraft:trim": {
+              "material": "minecraft:amethyst",
+              "pattern": "minecraft:bolt"
+            },
+            "minecraft:jukebox_playable": "minecraft:mall"
+          }
+      }
+    }
+  }
+}
+
+
+

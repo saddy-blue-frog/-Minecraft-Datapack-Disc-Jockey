@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:netherite_helmet"
+  ],
+  "addition": [
+    "minecraft:music_disc_blocks"
+  ],
+  "template": [
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:resin",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Blocks",
+        "color": "#bd7b1f"
+      },
+      "minecraft:item_model": "discs:headset_block",
+      "minecraft:jukebox_playable": "minecraft:blocks"
+    }
+  }
+}

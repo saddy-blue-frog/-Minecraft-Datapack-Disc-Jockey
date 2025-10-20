@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:disc_fragment_5"
+  ],
+  "addition": [
+    "minecraft:diamond"
+  ],
+  "template": [
+    "minecraft:note_block"
+  ],
+  "result": {
+    "id": "minecraft:ominous_trial_key",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Unrecorded Disc",
+        "color": "#d2eafe"
+      },
+      "minecraft:item_model": "discs:unrecorded_disc",
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:netherite_helmet"
+  ],
+  "addition": [
+    "minecraft:music_disc_ward"
+  ],
+  "template": [
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:iron",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:item_name": {
+        "text": "Netherite Headphones - Ward",
+        "color": "#538d65"
+      },
+      "minecraft:item_model": "discs:headset_ward",
+      "minecraft:jukebox_playable": "minecraft:ward"
+    }
+  }
+}

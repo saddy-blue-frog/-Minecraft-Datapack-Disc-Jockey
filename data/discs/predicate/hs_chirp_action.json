@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_helmet",
+          "components": {
+            "minecraft:item_name": {
+              "text": "Netherite Headphones - Chirp",
+              "color": "#d11544"
+            },
+            "minecraft:trim": {
+              "material": "minecraft:redstone",
+              "pattern": "minecraft:snout"
+            },
+            "minecraft:jukebox_playable": "minecraft:chirp"
+          }
+      }
+    },
+    "slots": {
+      "container.*": {
+        "items": "#minecraft:chicken_food"
+      }
+    }
+  }
+}
+
+
+

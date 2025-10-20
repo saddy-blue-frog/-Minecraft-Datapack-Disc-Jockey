@@ -1,0 +1,34 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "input": {
+        "sneak": true
+      }
+    },
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:ominous_trial_key",
+            "components": {
+                "minecraft:item_name": {
+                 "text": "Unrecorded Disc",
+                "color": "#d2eafe"
+            },
+                "minecraft:max_stack_size": 1
+        }
+      },
+      
+      "offhand": {
+        "items": "minecraft:jukebox",
+        "components": {
+          "minecraft:item_name": {
+            "text": "Juke Recorder",
+            "color": "#611cb5"
+          }
+        }
+      }
+    }
+  }
+}
